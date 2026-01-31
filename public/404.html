@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>PokéSearch</title>
+    <script>
+      // Redirect to index with path preserved for SPA routing on GitHub Pages
+      const path = window.location.pathname;
+      const repo = "/PokemonSearch";
+      if (path.startsWith(repo)) {
+        const route = path.slice(repo.length) || "/";
+        sessionStorage.setItem("redirect", route);
+        window.location.replace(repo + "/");
+      }
+    </script>
+  </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
+</html>
