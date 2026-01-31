@@ -162,7 +162,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Pokémon data provided by [PokéAPI](https://pokeapi.co/)
 - Pokémon and Pokémon character names are trademarks of Nintendo
-
----
-
-Built with ❤️ using Vue.js
