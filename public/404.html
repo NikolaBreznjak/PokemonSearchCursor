@@ -6,7 +6,7 @@
     <script>
       // Redirect to index with path preserved for SPA routing on GitHub Pages
       const path = window.location.pathname;
-      const repo = "/PokemonSearch";
+      const repo = "/PokemonSearchCursor";
       if (path.startsWith(repo)) {
         const route = path.slice(repo.length) || "/";
         sessionStorage.setItem("redirect", route);

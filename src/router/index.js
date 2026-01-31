@@ -30,7 +30,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory("/PokemonSearch/"),
+  history: createWebHistory("/PokemonSearchCursor/"),
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
