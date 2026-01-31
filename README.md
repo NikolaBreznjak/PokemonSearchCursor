@@ -1,5 +1,7 @@
 # PokéSearch
 
+⚠️ If you want to follow along, step by step, here's a tutorial I wrote: [Vibe Coding a Pokémon Search App with Cursor](https://nikola-breznjak.com/blog/vibecoding/vibe-coding-a-pokemon-search-app-with-cursor/).
+
 A comprehensive web-based Pokémon search and discovery application built with Vue.js 3, allowing users to browse, search, and view detailed information about Pokémon using the PokéAPI.
 
 ![Vue.js](https://img.shields.io/badge/Vue.js-3.4-4FC08D?style=flat-square&logo=vue.js)
@@ -24,20 +26,20 @@ A comprehensive web-based Pokémon search and discovery application built with V
 
 ## Tech Stack
 
-| Technology       | Purpose                                  |
-| ---------------- | ---------------------------------------- |
-| **Vue.js 3**     | Frontend framework (Composition API)     |
-| **Vite**         | Build tool and dev server                |
-| **Tailwind CSS** | Utility-first CSS framework              |
-| **Pinia**        | State management                         |
-| **Vue Router**   | Client-side routing                      |
-| **PokéAPI**      | Data source                              |
+| Technology       | Purpose                              |
+| ---------------- | ------------------------------------ |
+| **Vue.js 3**     | Frontend framework (Composition API) |
+| **Vite**         | Build tool and dev server            |
+| **Tailwind CSS** | Utility-first CSS framework          |
+| **Pinia**        | State management                     |
+| **Vue Router**   | Client-side routing                  |
+| **PokéAPI**      | Data source                          |
 
 ## Quick Start
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - npm 9+
 
 ### Installation
@@ -137,6 +139,7 @@ npm run build
 This application uses the [PokéAPI](https://pokeapi.co/) - a free, open RESTful API for Pokémon data.
 
 **Endpoints used:**
+
 - `GET /pokemon?limit={n}&offset={o}` - Paginated list
 - `GET /pokemon/{name|id}` - Single Pokémon details
 - `GET /ability/{name}` - Ability descriptions
